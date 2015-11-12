@@ -1,0 +1,31 @@
+{
+    "name": "imi/imi_ce_htmltext",
+    "description": "Display description of HTML modules in the backend",
+    "keywords": [
+        "contao"
+    ],
+    "type": "contao-module",
+    "homepage": "http://www.imi-digital.de",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "iMi digital GmbH - Alexander Menk",
+            "email": "a.menk@imi.de",
+            "homepage": "http://www.imi-digital.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3.2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/imi_ce_htmltext"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
